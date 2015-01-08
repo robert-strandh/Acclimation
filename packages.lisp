@@ -13,8 +13,8 @@
    #:short-day-name
    #:language
    #:english
-   #:francais
-   #:svenska
-   #:deutsch
-   #:tieng-viet
+   #:french
+   #:swedish
+   #:german
+   #:vietnamese
    ))
