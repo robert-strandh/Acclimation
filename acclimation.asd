@@ -8,6 +8,6 @@
    (:file "date")
    (:file "language")
    (:file "language-english")
-   (:file "language-francais")
+   (:file "language-french")
    (:file "condition")
    (:file "init")))
