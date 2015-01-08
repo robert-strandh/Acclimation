@@ -9,5 +9,6 @@
    (:file "language")
    (:file "language-english")
    (:file "language-french")
+   (:file "language-swedish")
    (:file "condition")
    (:file "init")))
