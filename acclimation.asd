@@ -1,6 +1,6 @@
-(cl:in-package #:common-lisp-user)
+(cl:in-package #:asdf-user)
 
-(asdf:defsystem :acclimation
+(defsystem :acclimation
   :serial t
   :components
   ((:file "packages")
