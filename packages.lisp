@@ -7,6 +7,7 @@
   (:export
    #:condition
    #:report-condition
+   #:documentation
    #:locale
    #:*locale*
    #:long-day-name
