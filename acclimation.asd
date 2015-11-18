@@ -12,4 +12,5 @@
    (:file "language-swedish")
    (:file "language-vietnamese")
    (:file "condition")
+   (:file "documentation")
    (:file "init")))
