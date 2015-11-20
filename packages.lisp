@@ -9,6 +9,7 @@
    #:report-condition
    #:documentation
    #:locale
+   #:week-start
    #:*locale*
    #:long-day-name
    #:short-day-name
