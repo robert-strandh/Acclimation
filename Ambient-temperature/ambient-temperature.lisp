@@ -25,3 +25,18 @@
 		"~,vf°C"
 		(decimal-count formater)
 		celsius-temperature))))
+
+(defmethod format-ambient-temperature
+    (absolute-temperature
+     (formater ambient-temperature-farenheit)
+     stream-designator)
+  (let* ((celsius-temperature (- absolute-temperature 273.15d0))
+	 (farenheit-temperature (+ (* 9/5 celsius-temperature) 32)))
+    (if (zerop (decimal-count formater))
+	(format stream-designator
+		"~d°F"
+		(round farenheit-temperature))
+	(format stream-designator
+		"~,vf°F"
+		(decimal-count formater)
+		farenheit-temperature))))
