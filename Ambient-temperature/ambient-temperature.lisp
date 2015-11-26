@@ -6,3 +6,6 @@
 
 (defclass ambient-tempoerature-celsius (ambient-temperature)
   ())
+
+(defclass ambient-tempoerature-farenheit (ambient-temperature)
+  ())
