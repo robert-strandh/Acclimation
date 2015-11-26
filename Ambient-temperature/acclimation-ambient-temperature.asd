@@ -3,4 +3,5 @@
 (defsystem :acclimation-ambient-temperature
   :serial t
   :components
-  ((:file "packages")))
+  ((:file "packages")
+   (:file "ambient-temperature")))
