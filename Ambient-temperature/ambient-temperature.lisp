@@ -9,3 +9,5 @@
 
 (defclass ambient-tempoerature-farenheit (ambient-temperature)
   ())
+
+(defgeneric format-ambient-temperature (absolute-temperature formater stream))
