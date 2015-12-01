@@ -7,7 +7,7 @@
 (defclass ambient-temperature-celsius (ambient-temperature)
   ())
 
-(defclass ambient-temperature-farenheit (ambient-temperature)
+(defclass ambient-temperature-fahrenheit (ambient-temperature)
   ())
 
 (defgeneric format-ambient-temperature (absolute-temperature formater stream))
@@ -28,14 +28,14 @@
 
 (defmethod format-ambient-temperature
     (absolute-temperature
-     (formater ambient-temperature-farenheit)
+     (formater ambient-temperature-fahrenheit)
      stream-designator)
-  (let ((farenheit-temperature (kelvin-to-fahrenheit absolute-temperature)))
+  (let ((fahrenheit-temperature (kelvin-to-fahrenheit absolute-temperature)))
     (if (zerop (decimal-count formater))
 	(format stream-designator
 		"~d°F"
-		(round farenheit-temperature))
+		(round fahrenheit-temperature))
 	(format stream-designator
 		"~,vf°F"
 		(decimal-count formater)
-		farenheit-temperature))))
+		fahrenheit-temperature))))

@@ -7,7 +7,7 @@
 (defclass ovent-temperature-celsius (ovent-temperature)
   ())
 
-(defclass ovent-temperature-farenheit (ovent-temperature)
+(defclass ovent-temperature-fahrenheit (ovent-temperature)
   ())
 
 (defgeneric format-ovent-temperature (absolute-temperature formater stream))
@@ -23,7 +23,7 @@
 
 (defmethod format-ovent-temperature
     (absolute-temperature
-     (formater ovent-temperature-farenheit)
+     (formater ovent-temperature-fahrenheit)
      stream-designator)
   (let ((fahrenheit-temperature (kelvin-to-fahrenheit absolute-temperature)))
     (format stream-designator
