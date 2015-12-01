@@ -1,5 +1,5 @@
 (cl:in-package #:common-lisp-user)
 
-(defpackage #:acclimation-ambient-temperature
+(defpackage #:acclimation-temperature
   (:use #:common-lisp)
   (:export))

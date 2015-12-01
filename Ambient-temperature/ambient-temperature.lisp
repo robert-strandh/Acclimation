@@ -1,4 +1,4 @@
-(cl:in-package #:acclimation-ambient-temperature)
+(cl:in-package #:acclimation-temperature)
 
 (defclass ambient-temperature ()
   ((%decimal-count
