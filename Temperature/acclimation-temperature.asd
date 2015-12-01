@@ -5,4 +5,5 @@
   :components
   ((:file "packages")
    (:file "temperature")
-   (:file "ambient-temperature")))
+   (:file "ambient-temperature")
+   (:file "oven-temperature")))
