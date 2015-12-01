@@ -4,4 +4,5 @@
   :serial t
   :components
   ((:file "packages")
+   (:file "temperature")
    (:file "ambient-temperature")))
