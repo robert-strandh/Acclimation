@@ -1,6 +1,6 @@
 (cl:in-package #:asdf-user)
 
-(defsystem :acclimation-ambient-temperature
+(defsystem :acclimation-temperature
   :serial t
   :components
   ((:file "packages")
