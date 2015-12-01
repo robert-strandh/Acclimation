@@ -16,7 +16,7 @@
     (absolute-temperature
      (formater ambient-temperature-celsius)
      stream-designator)
-  (let ((celsius-temperature (- absolute-temperature 273.15d0)))
+  (let ((celsius-temperature (kelvin-to-celsius absolute-temperature)))
     (if (zerop (decimal-count formater))
 	(format stream-designator
 		"~d°C"
@@ -30,8 +30,7 @@
     (absolute-temperature
      (formater ambient-temperature-farenheit)
      stream-designator)
-  (let* ((celsius-temperature (- absolute-temperature 273.15d0))
-	 (farenheit-temperature (+ (* 9/5 celsius-temperature) 32)))
+  (let ((farenheit-temperature (kelvin-to-fahrenheit absolute-temperature)))
     (if (zerop (decimal-count formater))
 	(format stream-designator
 		"~d°F"
