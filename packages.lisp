@@ -1,7 +1,6 @@
 (cl:in-package #:common-lisp-user)
 
 (defpackage #:acclimation
-  (:nicknames #:cleavir-i18n)
   (:shadow #:condition #:documentation)
   (:use #:common-lisp)
   (:export
