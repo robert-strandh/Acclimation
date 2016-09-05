@@ -27,5 +27,5 @@
      stream-designator)
   (let ((fahrenheit-temperature (kelvin-to-fahrenheit absolute-temperature)))
     (format stream-designator
-	    "~d°C"
+	    "~d°F"
 	    (* 10 (round fahrenheit-temperature 10)))))
