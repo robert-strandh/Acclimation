@@ -6,6 +6,9 @@
   (:export
    #:condition
    #:report-condition
+   #:report-function
+   #:interactive-function
+   #:with-restarts
    #:documentation
    #:locale
    #:week-start
