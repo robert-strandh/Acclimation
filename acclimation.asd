@@ -16,5 +16,6 @@
    (:file "language-vietnamese")
    (:file "language-japanese")
    (:file "condition")
+   (:file "restart")
    (:file "documentation")
    (:file "init")))
