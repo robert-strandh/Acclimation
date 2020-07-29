@@ -21,4 +21,5 @@
    #:swedish
    #:german
    #:vietnamese
+   #:afrikaans
    ))
