@@ -18,6 +18,7 @@
    (:file "language-polish")
    (:file "language-german")
    (:file "language-afrikaans")
+   (:file "language-russian")
    (:file "condition")
    (:file "restart")
    (:file "documentation")
