@@ -22,4 +22,5 @@
    #:german
    #:vietnamese
    #:afrikaans
+   #:russian
    ))
