@@ -3,7 +3,7 @@
 (defsystem :acclimation
   :description "Library supporting internationalization"
   :author "Robert Strandh <robert.strandh@gmail.com>"
-  :license "FreeBSD, see file LICENSE.text"
+  :license "BSD 2-clause, see file LICENSE.text"
   :serial t
   :components
   ((:file "packages")
