@@ -5,3 +5,8 @@
 (defgeneric long-day-name (day language))
 
 (defgeneric short-day-name (day language))
+
+;;; MONTH is the month number starting with 1 for January
+(defgeneric long-month-name (month language))
+
+(defgeneric short-month-name (month language))
