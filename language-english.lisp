@@ -132,4 +132,3 @@
 
 (defmethod short-month-name ((month (eql 12)) (langauge english))
   "Dec")
-                            
