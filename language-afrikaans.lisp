@@ -52,3 +52,83 @@
 
 (defmethod short-day-name ((day (eql 7)) (language afrikaans))
   "So")
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;
+;;; Methods on LONG-MONTH-NAME.
+
+(defmethod long-month-name ((month (eql 1)) (langauge afrikaans))
+  "Januarie")
+
+(defmethod long-month-name ((month (eql 2)) (langauge afrikaans))
+  "Februarie")
+
+(defmethod long-month-name ((month (eql 3)) (langauge afrikaans))
+  "Maart")
+
+(defmethod long-month-name ((month (eql 4)) (langauge afrikaans))
+  "April")
+
+(defmethod long-month-name ((month (eql 5)) (langauge afrikaans))
+  "Mei")
+
+(defmethod long-month-name ((month (eql 6)) (langauge afrikaans))
+  "Junie")
+
+(defmethod long-month-name ((month (eql 7)) (langauge afrikaans))
+  "Julie")
+
+(defmethod long-month-name ((month (eql 8)) (langauge afrikaans))
+  "Augustus")
+
+(defmethod long-month-name ((month (eql 9)) (langauge afrikaans))
+  "September")
+
+(defmethod long-month-name ((month (eql 10)) (langauge afrikaans))
+  "Oktober")
+
+(defmethod long-month-name ((month (eql 11)) (langauge afrikaans))
+  "November")
+
+(defmethod long-month-name ((month (eql 12)) (langauge afrikaans))
+  "Desember")
+                            
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;
+;;; Methods on SHORT-MONTH-NAME.
+
+(defmethod short-month-name ((month (eql 1)) (langauge afrikaans))
+  "Jan")
+
+(defmethod short-month-name ((month (eql 2)) (langauge afrikaans))
+  "Feb")
+
+(defmethod short-month-name ((month (eql 3)) (langauge afrikaans))
+  "Maa")
+
+(defmethod short-month-name ((month (eql 4)) (langauge afrikaans))
+  "Apr")
+
+(defmethod short-month-name ((month (eql 5)) (langauge afrikaans))
+  "Mei")
+
+(defmethod short-month-name ((month (eql 6)) (langauge afrikaans))
+  "Jun")
+
+(defmethod short-month-name ((month (eql 7)) (langauge afrikaans))
+  "Jul")
+
+(defmethod short-month-name ((month (eql 8)) (langauge afrikaans))
+  "Aug")
+
+(defmethod short-month-name ((month (eql 9)) (langauge afrikaans))
+  "Sep")
+
+(defmethod short-month-name ((month (eql 10)) (langauge afrikaans))
+  "Okt")
+
+(defmethod short-month-name ((month (eql 11)) (langauge afrikaans))
+  "Nov")
+
+(defmethod short-month-name ((month (eql 12)) (langauge afrikaans))
+  "Des")
