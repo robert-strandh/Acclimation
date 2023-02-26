@@ -18,13 +18,13 @@
      stream-designator)
   (let ((celsius-temperature (kelvin-to-celsius absolute-temperature)))
     (if (zerop (decimal-count formater))
-	(format stream-designator
-		"~d°C"
-		(round celsius-temperature))
-	(format stream-designator
-		"~,vf°C"
-		(decimal-count formater)
-		celsius-temperature))))
+        (format stream-designator
+                "~d°C"
+                (round celsius-temperature))
+        (format stream-designator
+                "~,vf°C"
+                (decimal-count formater)
+                celsius-temperature))))
 
 (defmethod format-ambient-temperature
     (absolute-temperature
@@ -32,10 +32,10 @@
      stream-designator)
   (let ((fahrenheit-temperature (kelvin-to-fahrenheit absolute-temperature)))
     (if (zerop (decimal-count formater))
-	(format stream-designator
-		"~d°F"
-		(round fahrenheit-temperature))
-	(format stream-designator
-		"~,vf°F"
-		(decimal-count formater)
-		fahrenheit-temperature))))
+        (format stream-designator
+                "~d°F"
+                (round fahrenheit-temperature))
+        (format stream-designator
+                "~,vf°F"
+                (decimal-count formater)
+                fahrenheit-temperature))))
