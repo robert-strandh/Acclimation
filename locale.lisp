@@ -1,5 +1,9 @@
 (cl:in-package #:acclimation)
 
+(defgeneric language (locale))
+
+(defgeneric (setf language) (language locale))
+
 (defclass locale ()
   ((%language :initarg :language :accessor language)
    ;; This slot holds an integer between 1 and 7 which is the ISO 8601
